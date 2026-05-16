@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "CT-001",
+    "input": "A policyholder reports water damage after a burst pipe in the kitchen. The incident happened yesterday and they have photos of the damage.",
+    "actual_output": "This should be triaged as a property claim. Request policy number, incident date, photos, repair estimate and confirm whether emergency mitigation was required.",
+    "expected_output": "Classify as property claim, request incident date, policy number, photos, repair estimate and flag for coverage review if exclusions may apply."
+  },
+  {
+    "case_id": "CT-002",
+    "input": "A claimant reports stolen business equipment from a locked van overnight. They have filed a police report.",
+    "actual_output": "This appears to be a theft claim. Request policy details, police report reference, list of stolen items, purchase invoices and circumstances of the loss.",
+    "expected_output": "Classify as theft/property claim, request police report, itemised loss list, proof of ownership, policy details and check security conditions."
+  },
+  {
+    "case_id": "CT-003",
+    "input": "A customer says they want to claim for a cancelled trip because they changed their mind about travelling.",
+    "actual_output": "This should be reviewed carefully as it may not be covered. Request policy wording, reason for cancellation, booking documents and any supporting evidence.",
+    "expected_output": "Classify as travel cancellation claim, flag potential coverage issue, request booking documents, cancellation reason, policy wording and supporting evidence."
+  }
+]
