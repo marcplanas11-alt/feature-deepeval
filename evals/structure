@@ -1,0 +1,9 @@
+evals/
+├── README.md
+├── run_answer_relevancy.py
+├── test_cases/
+│   └── claims_triage_cases.json
+├── results/
+│   └── answer_relevancy_baseline_example.json
+└── notes/
+    └── interview_framing.md
