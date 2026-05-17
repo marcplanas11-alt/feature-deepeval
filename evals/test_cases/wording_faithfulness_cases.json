@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "WF-001",
+    "context": "The insurer may decline claims resulting from gradual leakage over time.",
+    "input": "Would this damage be covered?",
+    "actual_output": "Coverage may be excluded if the damage resulted from gradual leakage over time.",
+    "expected_output": "The response should mention the gradual leakage exclusion and avoid confirming guaranteed coverage."
+  },
+  {
+    "case_id": "WF-002",
+    "context": "Cyber incidents must be reported within 72 hours of detection.",
+    "input": "What is the reporting deadline?",
+    "actual_output": "Cyber incidents should be reported within 72 hours after detection.",
+    "expected_output": "The response should mention the 72-hour reporting requirement."
+  },
+  {
+    "case_id": "WF-003",
+    "context": "The policy excludes losses caused by intentional fraudulent acts.",
+    "input": "Would fraudulent claims be reimbursed?",
+    "actual_output": "Fraudulent claims would generally be excluded under the wording provided.",
+    "expected_output": "The response should explain that fraudulent acts are excluded."
+  }
+]
