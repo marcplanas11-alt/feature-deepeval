@@ -1,5 +1,6 @@
-.deepeval/ 
 .env
 .env.local
+.env*.local
 *.pyc
 __pycache__/
+.DS_Store
